@@ -18,7 +18,7 @@ function Header() {
             <div className="container mx-auto 2xl:w-[1280px] px-3">
                 <nav className='flex justify-between items-center'>
                     <Link className='flex items-center gap-2' to={'/'}>
-                        <img className='w-5 md:w-10 h-5 md:h-10' src="./public/logo.png" alt="image" />
+                        <img className='w-5 md:w-10 h-5 md:h-10' src="/src/assets/logo.png" alt="image" />
                         <p className='text-white'>Portfolio</p>
                     </Link>
                     <div>
