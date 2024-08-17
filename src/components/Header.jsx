@@ -2,11 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import img from "../assets/logo.png"
+import cv from "../../public/cv.pdf"
 
 function Header() {
     const handleDownload = () => {
         // CV dosyasının yolu
-        const cvUrl = "/cv.pdf";
+        const cvUrl = cv;
 
         // Link oluşturup indirme işlemi başlatılıyor
         const link = document.createElement("a");
