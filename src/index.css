@@ -11,6 +11,7 @@ button, .pro {
     position: absolute;
     inset: 0;
     transform: translateY(20%);
+    background-image: url('');
 }
 .second {
     position: absolute;

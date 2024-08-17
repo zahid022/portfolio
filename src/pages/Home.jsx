@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import Progress from '../components/Progress'
 import data from '../data/data'
 import Card from '../components/Card'
+import img from '../assets/drawing.png'
 
 function Home() {
   const arr = data.slice(0, 4)
@@ -11,7 +12,7 @@ function Home() {
     <main className='bg-[#0F1624] py-5'>
       <div className="container mx-auto 2xl:w-[1280px] px-3">
         <section className='mb-4'>
-          <div className="flex w-full md:items-center flex-wrap bg-[url(src/assets/drawing.png)] bg-center bg-cover md:bg-contain md:h-[50vh] md:bg-right-bottom bg-no-repeat">
+          <div style={{backgroundImage : `url(${img})`}} className="flex w-full md:items-center flex-wrap  bg-center bg-cover md:bg-contain md:h-[50vh] md:bg-right-bottom bg-no-repeat">
             <div className='w-full md:w-8/12 lg:w-6/12'>
               <h1 className='text-white text-[24px] md:text-[32px] md:mb-4 lg:text-[45px] font-semibold mb-2'>Hi, I'm Zahid</h1>
               <p className='text-white leading-7 text-[14px] md:text-[16px]'>Specialized in JavaScript, HTML, React and CSS, I have experience in developing user-friendly and functional web applications. Utilizing modern web technologies, I strive to create innovative and effective solutions. I pay attention to detail and contribute to projects with my problem-solving skills.</p>

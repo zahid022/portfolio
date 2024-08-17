@@ -6,13 +6,11 @@ import cv from "../../public/cv.pdf"
 
 function Header() {
     const handleDownload = () => {
-        // CV dosyasının yolu
         const cvUrl = cv;
 
-        // Link oluşturup indirme işlemi başlatılıyor
         const link = document.createElement("a");
         link.href = cvUrl;
-        link.download = "CV.pdf"; // İndirilen dosya adı
+        link.download = "CV.pdf";
         link.click();
     };
     return (
