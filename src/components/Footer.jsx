@@ -1,6 +1,7 @@
 import { FaPhone } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { Link } from "react-router-dom";
+import img from "../assets/logo.png"
 
 function Footer() {
   return (
@@ -9,7 +10,7 @@ function Footer() {
         <div className='flex gap-3 md:gap-0  flex-col md:flex-row md:items-center md:justify-between'>
           <div className="hidden md:block">
             <Link className='flex items-center gap-2' to={'/'}>
-              <img className='w-5 md:w-10 h-5 md:h-10' src="./src/assets/logo.png" alt="image" />
+              <img className='w-5 md:w-10 h-5 md:h-10' src={img} alt="image" />
             </Link>
           </div>
           <div className="flex gap-3 md:gap-0 flex-col md:flex-row md:items-center">
