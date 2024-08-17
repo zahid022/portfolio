@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button, .pro {
+    background: rgb(19, 173, 199);
+    background: linear-gradient(87deg, rgba(19, 173, 199, 1) 0%, rgba(105, 120, 209, 1) 76%, rgba(148, 93, 214, 1) 100%);
+}
+
+.first{
+    position: absolute;
+    inset: 0;
+    transform: translateY(20%);
+}
+.second {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+}
+
+button:hover .first{
+    transform: translateY(-100%);
+}
+
+button:hover .second{
+    transform: translateY(-140%);
+}
