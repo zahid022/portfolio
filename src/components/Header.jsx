@@ -2,17 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import img from "../assets/logo.png"
-import cv from "../../public/cv.pdf"
 
 function Header() {
-    const handleDownload = () => {
-        const cvUrl = cv;
-
-        const link = document.createElement("a");
-        link.href = cvUrl;
-        link.download = "CV.pdf";
-        link.click();
-    };
     return (
         <header className='bg-[#0F1624] py-5 sticky top-0 z-[900]'>
             <div className="container mx-auto 2xl:w-[1280px] px-3">
@@ -34,9 +25,9 @@ function Header() {
                                 </Link>
                             </li>
                             <li>
-                                <button onClick={handleDownload} className='w-[130px] relative text-[14px] font-medium h-[35px] text-white overflow-hidden rounded-md'>
-                                    <span className='duration-300 first'>Download CV</span>
-                                    <span className='duration-300 second'>Download CV</span>
+                                <button className='w-[130px] relative text-[14px] font-medium h-[35px] text-white overflow-hidden rounded-md'>
+                                    <Link to={'/contact'} className='duration-300 first'>Contact me</Link>
+                                    <Link to={'/contact'} className='duration-300 second'>Contact me</Link>
                                 </button>
                             </li>
                         </ul>
