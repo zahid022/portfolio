@@ -9,8 +9,16 @@ import img8 from '../assets/dashboard.jpg'
 import img9 from '../assets/atb.jpg'
 import img10 from '../assets/apple.jpg'
 import img11 from '../assets/news.jpg'
+import img12 from '../assets/eccomerce.png'
 
 const data = [
+    {
+        img: img12,
+        name: 'Eccomerce',
+        tools: ['Tailwind CSS', 'React', 'Redux'],
+        link: `https://zahid-eccomerce.vercel.app/`,
+        desc: 'This e-commerce website is developed using React, Redux, and Tailwind CSS, ensuring a modern and responsive user interface. The site provides a seamless shopping experience, allowing users to effortlessly browse and purchase products. I utilized Formik for managing forms, ensuring that user inputs are validated and handled efficiently. Customers can explore a wide variety of products, filter their searches, and enjoy a secure checkout process, all designed to enhance usability and performance. The combination of React and Redux allows for efficient state management, making the application scalable and easy to maintain. Tailwind CSS provides a beautiful, customizable design that adapts to all devices, ensuring an optimal viewing experience. Join us on this exciting shopping journey, where quality products meet exceptional service!'
+    },
     {
         img: img11,
         name: 'News',
