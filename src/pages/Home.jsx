@@ -54,9 +54,9 @@ function Home() {
             <h2 className='text-white font-semibold text-[20px] md:text-[26px] lg:text-[32px] xl:text-[38px] text-center'>Technologies</h2>
             <div className='w-full md:w-[90%] lg:w-[80%] mx-auto xl:w-[70%]'>
               <Progress ad={"Html"} level={"Advanced"} x={90} />
-              <Progress ad={"CSS, Sass, Bootstrap & TailwindCSS"} level={"Advanced"} x={90} />
-              <Progress ad={"JavaScript, JQuery"} level={"Advanced"} x={90} />
-              <Progress ad={"React"} level={"Advanced"} x={80} />
+              <Progress ad={"CSS, Sass, MUI, Bootstrap & TailwindCSS"} level={"Advanced"} x={90} />
+              <Progress ad={"JavaScript"} level={"Advanced"} x={90} />
+              <Progress ad={"React, Vue.js, JQuery"} level={"Advanced"} x={80} />
               <Progress ad={"UI design in Figma"} level={"Regular"} x={60} />
             </div>
           </div>
