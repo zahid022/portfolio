@@ -19,13 +19,13 @@ const data = [
         link: `https://final-blush-tau.vercel.app/`,
         desc: 'This e-commerce website is developed using React, Redux, and Tailwind CSS, ensuring a modern and responsive user interface. The site provides a seamless shopping experience, allowing users to effortlessly browse and purchase products. I utilized Formik for managing forms, ensuring that user inputs are validated and handled efficiently. Customers can explore a wide variety of products, filter their searches, and enjoy a secure checkout process, all designed to enhance usability and performance. The combination of React and Redux allows for efficient state management, making the application scalable and easy to maintain. Tailwind CSS provides a beautiful, customizable design that adapts to all devices, ensuring an optimal viewing experience. Join us on this exciting shopping journey, where quality products meet exceptional service!'
     },
-    {
-        img: img11,
-        name: 'News',
-        tools: ['Tailwind CSS', 'React', 'Redux'],
-        link: `https://news-react-gray-eight.vercel.app/`,
-        desc: 'This project is a fully functional news website built using React, Redux for state management, and styled with Tailwind CSS. The site allows users to browse the latest news articles across various categories. It also includes an admin panel for content management, where admins can add, edit, or delete news articles. The clean and responsive design ensures a seamless experience across all devices.'
-    },
+    // {
+    //     img: img11,
+    //     name: 'News',
+    //     tools: ['Tailwind CSS', 'React', 'Redux'],
+    //     link: `https://news-react-gray-eight.vercel.app/`,
+    //     desc: 'This project is a fully functional news website built using React, Redux for state management, and styled with Tailwind CSS. The site allows users to browse the latest news articles across various categories. It also includes an admin panel for content management, where admins can add, edit, or delete news articles. The clean and responsive design ensures a seamless experience across all devices.'
+    // },
     {
         img: img1,
         name: 'Umico Clone',
