@@ -12,9 +12,11 @@ function Card({ item }) {
                     <div className='flex justify-center mb-3'>
                         <h3 className='text-center font-medium inline-block pb-1 border-b rounded-md border-[#8f61d6]'>{item.name}</h3>
                     </div>
-                    <p className='text-[18px] font-medium mb-4'>Tools: {item.tools.map((item, i) => {
-                        return <span className='mr-1 text-[14px] font-normal' key={i}>{item}</span>
-                    })}</p>
+                    <p className='text-[14px] flex flex-wrap items-center font-medium mb-4'>
+                        <span className='pr-1'>Tools: </span> {item.tools.map((item, i) => {
+                        return <span className='mr-1 text-[14px] font-normal' key={i}>{item},</span>
+                        })}
+                    </p>
                     <div className='flex justify-center'>
                         <button className='w-[150px] relative h-[40px] overflow-hidden rounded-md'>
                             <Link className='duration-300 first' target='_blank' to={`${item.link}`}>Go Website</Link>
