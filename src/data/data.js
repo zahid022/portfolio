@@ -8,10 +8,11 @@ import img7 from '../assets/country.jpg'
 import img8 from '../assets/dashboard.jpg'
 import img9 from '../assets/atb.jpg'
 import img10 from '../assets/apple.jpg'
-import img11 from '../assets/news.jpg'
+import img11 from '../assets/proper.png'
 import img12 from '../assets/eccomerce.png'
 
 const data = [
+
     {
         img: img12,
         name: 'Eccomerce',
@@ -19,13 +20,13 @@ const data = [
         link: `https://final-blush-tau.vercel.app/`,
         desc: 'This e-commerce website is developed using React, Redux, and Tailwind CSS, ensuring a modern and responsive user interface. The site provides a seamless shopping experience, allowing users to effortlessly browse and purchase products. I utilized Formik for managing forms, ensuring that user inputs are validated and handled efficiently. Customers can explore a wide variety of products, filter their searches, and enjoy a secure checkout process, all designed to enhance usability and performance. The combination of React and Redux allows for efficient state management, making the application scalable and easy to maintain. Tailwind CSS provides a beautiful, customizable design that adapts to all devices, ensuring an optimal viewing experience. Join us on this exciting shopping journey, where quality products meet exceptional service!'
     },
-    // {
-    //     img: img11,
-    //     name: 'News',
-    //     tools: ['Tailwind CSS', 'React', 'Redux'],
-    //     link: `https://news-react-gray-eight.vercel.app/`,
-    //     desc: 'This project is a fully functional news website built using React, Redux for state management, and styled with Tailwind CSS. The site allows users to browse the latest news articles across various categories. It also includes an admin panel for content management, where admins can add, edit, or delete news articles. The clean and responsive design ensures a seamless experience across all devices.'
-    // },
+    {
+        img: img11,
+        name: 'Proper Cloth',
+        tools: ['Tailwind CSS', 'Vue.js', 'Pinia', 'TypeScript', 'Axios', 'Ecpress.js', 'Nodemailer', 'Mongoose'],
+        link: `https://proper-clone-six.vercel.app/`,
+        desc: 'This e-commerce platform is built using modern technologies like Vue.js and TypeScript, ensuring a seamless and dynamic user experience. It utilizes Pinia for efficient state management and Tailwind CSS for sleek, responsive design. The backend is powered by Express.js with Mongoose, providing a robust connection to the database, while Axios handles smooth API interactions. Additionally, Nodemailer is integrated for reliable email notifications, enhancing communication with users. This project demonstrates a comprehensive approach to creating a full-stack e-commerce solution.'
+    },
     {
         img: img1,
         name: 'Umico Clone',
