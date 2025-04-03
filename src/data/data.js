@@ -23,7 +23,7 @@ const data = [
     {
         img: img11,
         name: 'Proper Cloth',
-        tools: ['Tailwind CSS', 'Vue.js', 'Pinia', 'TypeScript', 'Axios', 'Ecpress.js', 'Nodemailer', 'Mongoose'],
+        tools: ['Tailwind CSS', 'Vue.js', 'Pinia', 'TypeScript', 'Axios', 'Express.js', 'Nodemailer', 'Mongoose'],
         link: `https://proper-clone-six.vercel.app/`,
         desc: 'This e-commerce platform is built using modern technologies like Vue.js and TypeScript, ensuring a seamless and dynamic user experience. It utilizes Pinia for efficient state management and Tailwind CSS for sleek, responsive design. The backend is powered by Express.js with Mongoose, providing a robust connection to the database, while Axios handles smooth API interactions. Additionally, Nodemailer is integrated for reliable email notifications, enhancing communication with users. This project demonstrates a comprehensive approach to creating a full-stack e-commerce solution.'
     },

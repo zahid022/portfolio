@@ -25,7 +25,11 @@ function Home() {
           <div style={{ backgroundImage: `url(${img})` }} className="flex w-full md:items-center flex-wrap  bg-center bg-cover md:bg-contain md:h-[50vh] md:bg-right-bottom bg-no-repeat">
             <div className='w-full md:w-8/12 lg:w-6/12'>
               <h1 className='text-white text-[24px] md:text-[32px] md:mb-4 lg:text-[45px] font-semibold mb-2'>Hi, I'm Zahid</h1>
-              <p className='text-white leading-7 text-[14px] md:text-[16px]'>Specialized in JavaScript, HTML, React and CSS, I have experience in developing user-friendly and functional web applications. Utilizing modern web technologies, I strive to create innovative and effective solutions. I pay attention to detail and contribute to projects with my problem-solving skills.</p>
+              <p className='text-white leading-7 text-[14px] md:text-[16px]'>Specialized as a Full-Stack Developer, I possess strong expertise in both frontend and backend
+                technologies, including JavaScript, HTML, React, CSS, and Node.js. I am experienced in developing
+                scalable, user-friendly, and functional web applications, utilizing modern technologies to provide
+                innovative solutions. My focus is on delivering seamless user experiences while ensuring efficient serverside performance. I am dedicated to continuous learning and applying my problem-solving skills to build
+                high-quality applications from start to finish</p>
               <div className='flex gap-3'>
                 <button className='w-[150px] relative h-[40px] mt-4 md:mt-7 text-white overflow-hidden rounded-md'>
                   <Link className='duration-300 first' to={'/projects'} >See all projects</Link>
@@ -53,11 +57,10 @@ function Home() {
           <div>
             <h2 className='text-white font-semibold text-[20px] md:text-[26px] lg:text-[32px] xl:text-[38px] text-center'>Technologies</h2>
             <div className='w-full md:w-[90%] lg:w-[80%] mx-auto xl:w-[70%]'>
-              <Progress ad={"Html"} level={"Advanced"} x={90} />
-              <Progress ad={"CSS, Sass, MUI, Bootstrap & TailwindCSS"} level={"Advanced"} x={90} />
-              <Progress ad={"JavaScript"} level={"Advanced"} x={90} />
-              <Progress ad={"React, Vue.js, JQuery"} level={"Advanced"} x={80} />
-              <Progress ad={"UI design in Figma"} level={"Regular"} x={60} />
+              <Progress ad={"CSS, Sass, MUI, Bootstrap, TailwindCSS, ShadcnUI"} level={"Advanced"} x={90} />
+              <Progress ad={"JavaScript, TypeScript, React, Vue.js, JQuery"} level={"Advanced"} x={90} />
+              <Progress ad={"Node.js, Nest.js, Express.js"} level={"Advanced"} x={90} />
+              <Progress ad={"MySQL, PosgtreSQL, Sequelize, Mongoose, TypeOrm"} level={"Advanced"} x={80} />
             </div>
           </div>
           <div className='py-4'>
