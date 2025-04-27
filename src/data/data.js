@@ -10,15 +10,16 @@ import img9 from '../assets/atb.jpg'
 import img10 from '../assets/apple.jpg'
 import img11 from '../assets/proper.png'
 import img12 from '../assets/eccomerce.png'
+import img13 from '../assets/marketing.png'
 
 const data = [
 
     {
-        img: img12,
-        name: 'Eccomerce',
-        tools: ['Tailwind CSS', 'React', 'Redux'],
-        link: `https://final-blush-tau.vercel.app/`,
-        desc: 'This e-commerce website is developed using React, Redux, and Tailwind CSS, ensuring a modern and responsive user interface. The site provides a seamless shopping experience, allowing users to effortlessly browse and purchase products. I utilized Formik for managing forms, ensuring that user inputs are validated and handled efficiently. Customers can explore a wide variety of products, filter their searches, and enjoy a secure checkout process, all designed to enhance usability and performance. The combination of React and Redux allows for efficient state management, making the application scalable and easy to maintain. Tailwind CSS provides a beautiful, customizable design that adapts to all devices, ensuring an optimal viewing experience. Join us on this exciting shopping journey, where quality products meet exceptional service!'
+        img: img13,
+        name: 'Marketing Partner',
+        tools: ["Node.js", "Nest.js", "Next.js", "TailwindCSS", "TypeORM", "RTK Query", "I18n"],
+        link: `https://marketingpartner.az/az`,
+        desc: 'MarketingPartner.az is a dynamic web application developed to connect businesses with marketing solutions. On the frontend, I used Next.js for fast, SEO-optimized, server-side rendered pages, and Tailwind CSS for responsive, modern styling. On the backend, I built the server with Nest.js, a powerful and scalable Node.js framework. For the database layer, I used TypeORM to manage and interact with the database efficiently. This project showcases my full-stack development skills, combining clean UI/UX design with robust backend architecture.'
     },
     {
         img: img11,
@@ -26,6 +27,13 @@ const data = [
         tools: ['Tailwind CSS', 'Vue.js', 'Pinia', 'TypeScript', 'Axios', 'Express.js', 'Nodemailer', 'Mongoose'],
         link: `https://proper-clone-six.vercel.app/`,
         desc: 'This e-commerce platform is built using modern technologies like Vue.js and TypeScript, ensuring a seamless and dynamic user experience. It utilizes Pinia for efficient state management and Tailwind CSS for sleek, responsive design. The backend is powered by Express.js with Mongoose, providing a robust connection to the database, while Axios handles smooth API interactions. Additionally, Nodemailer is integrated for reliable email notifications, enhancing communication with users. This project demonstrates a comprehensive approach to creating a full-stack e-commerce solution.'
+    },
+    {
+        img: img12,
+        name: 'Eccomerce',
+        tools: ['Tailwind CSS', 'React', 'Redux'],
+        link: `https://final-blush-tau.vercel.app/`,
+        desc: 'This e-commerce website is developed using React, Redux, and Tailwind CSS, ensuring a modern and responsive user interface. The site provides a seamless shopping experience, allowing users to effortlessly browse and purchase products. I utilized Formik for managing forms, ensuring that user inputs are validated and handled efficiently. Customers can explore a wide variety of products, filter their searches, and enjoy a secure checkout process, all designed to enhance usability and performance. The combination of React and Redux allows for efficient state management, making the application scalable and easy to maintain. Tailwind CSS provides a beautiful, customizable design that adapts to all devices, ensuring an optimal viewing experience. Join us on this exciting shopping journey, where quality products meet exceptional service!'
     },
     {
         img: img1,
